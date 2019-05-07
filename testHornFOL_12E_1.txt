@@ -1,0 +1,3 @@
+Link(x,NextOf(x))
+Link(y,z) => Path(y,z)
+Path(u,v) AND Link(v,w) => Path(u,w)
